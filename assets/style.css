@@ -149,6 +149,16 @@ img{max-width:100%}
 .prod-split .pic img{max-width:100%;max-height:480px;object-fit:contain;display:block;mix-blend-mode:multiply}
 .prod-split .txt{padding:64px 72px;display:flex;flex-direction:column;gap:22px}
 .prod-split.rev .pic{order:2}
+.benefici{background:var(--indaco-scuro);color:#fff;padding:120px 0;margin-top:120px}
+.benefici .eyebrow{color:var(--azzurro-chiaro)}
+.ben-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(340px,100%),1fr));gap:28px;align-items:start}
+.ben-card{background:rgba(255,255,255,.06);border:1px solid rgba(159,216,245,.35);border-radius:20px;padding:36px;display:flex;flex-direction:column;gap:16px}
+.ben-card h3{margin:0;font-size:26px;color:#fff}
+.ben-intro{margin:0;font-size:19px;line-height:1.6;color:#e6e3f5}
+.ben-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
+.ben-list li{display:flex;gap:12px;align-items:flex-start;font-size:19px;line-height:1.5;color:#fff}
+.ben-list svg{flex-shrink:0;margin-top:2px}
+@media (max-width:820px){.benefici{padding:72px 0;margin-top:72px}.ben-card{padding:24px 20px}}
 .prod-info{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:72px;align-items:start;padding-top:120px;padding-bottom:40px}
 .spec{width:100%;border-collapse:collapse;font-size:20px}
 .spec th,.spec td{text-align:left;vertical-align:top;padding:18px 0;border-bottom:1px solid var(--linea)}
